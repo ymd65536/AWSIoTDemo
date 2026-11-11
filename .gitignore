@@ -1,0 +1,23 @@
+# 秘密鍵・証明書・ローカル設定 (コミット禁止)
+certs/
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
