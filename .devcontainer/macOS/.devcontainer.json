@@ -1,0 +1,19 @@
+{
+    "name": "Amazon Q Container",
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "sh .devcontainer/postCreateCommand.sh",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli":{}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "DavidAnson.vscode-markdownlint",
+                "AmazonWebServices.amazon-q-vscode",
+                "amazonwebservices.aws-toolkit-vscode"
+            ]
+        }
+    }
+}
